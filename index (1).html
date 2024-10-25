@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de Tareas - Inbox</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="sidebar">
+        <h2>My tasks</h2>
+        <ul>
+            <li><a href="#"><i class="fas fa-inbox"></i> Inbox</a></li>
+            <li><a href="#"><i class="fas fa-list"></i> Activity</a></li>
+            <li><a href="#"><i class="fas fa-chart-bar"></i> Reports</a></li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <header>
+            <h1>Inbox</h1>
+            <p>Revisa tus mensajes y tareas recientes</p>
+        </header>
+
+        <section class="task-section">
+            <h2>Tareas Faltantes</h2>
+            <div class="task-list">
+                <div class="task-item pending">
+                    <h3>Escribir documento de requisitos</h3>
+                    <p>Vencimiento: 12 de diciembre, 2024</p>
+                    <p class="task-progress">Progreso: 20%</p>
+                </div>
+                <div class="task-item pending">
+                    <h3>Investigar herramientas de gestión</h3>
+                    <p>Vencimiento: 5 de diciembre, 2024</p>
+                    <p class="task-progress">Progreso: 50%</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="task-section">
+            <h2>Tareas Vencidas</h2>
+            <div class="task-list">
+                <div class="task-item overdue">
+                    <h3>Enviar agenda de la reunión</h3>
+                    <p>Vencimiento: 1 de diciembre, 2024</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="task-section">
+            <h2>Tareas Completadas</h2>
+            <div class="task-list">
+                <div class="task-item completed">
+                    <h3>Diseñar el dashboard de usuario</h3>
+                    <p>Completado: 30 de noviembre, 2024</p>
+                    <p class="task-progress">Progreso: 100%</p>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
